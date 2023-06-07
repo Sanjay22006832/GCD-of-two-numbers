@@ -15,15 +15,21 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 ```
-/*
-Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
+#Developed by; M Sanjay
+#Register Number: 212222240090
+
+def sq(number,number_iters=100):
+    a=float(number)
+    for i in range(number_iters):
+        number=0.5*(number+a/number)
+    return number
+a=int(input())
+print("Square root of the number:",sq(a))
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![Screenshot 2023-06-07 092851](https://github.com/Sanjay22006832/GCD-of-two-numbers/assets/119830477/73d836c0-5db4-4e5c-a7bb-abcd47dd13fe)
+
 
 
 ## Result:
